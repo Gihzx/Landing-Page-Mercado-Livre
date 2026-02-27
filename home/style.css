@@ -1,60 +1,107 @@
-*{
-    box-sizing: 0;
-    box-shadow: 0;
-    margin: 0;
+* {
+  box-sizing: 0;
+  box-shadow: 0;
+  margin: 0;
 }
-
 
 .nav-bar {
-display: flex;
-   justify-content:center;
-   gap: 100px;
-   background-color: #ffe600;
-   padding: 18px;
-    img{
-        width: 150px ;
-    }
-    input{
-        width: 50em;
-        padding: 10px;
-        border: none;
-        
-    }
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #ffe600;
+  padding: 18px;
+  position: relative;
+
+  img {
+    width: 150px;
+  }
+  input {
+    width: 50em;
+    padding: 10px;
+    border: none;
+  }
 }
-
-
 
 .nav-secundaria .nav-one {
- display: flex;
- justify-content: space-around;
- gap: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
-.nav-secundaria .nav-two{
- display: flex;
- justify-content: space-around;
- gap: 30px;
+.nav-secundaria .nav-two {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
-.nav-secundaria{
-       background-color: #ffe600;
-       display: flex;
-       justify-content:space-around ;
-        padding: 18px;
-       font-family: Arial, Helvetica, sans-serif;
+.nav-secundaria {
+  background-color: #ffe600;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.nav-secundaria a{
-text-decoration-line:none ;
-color: black;
+.nav-secundaria a {
+  text-decoration-line: none;
+  color: black;
 }
-.Container-card{
-display: flex;
-justify-content: center;    
-gap: 60px;
-padding: 20px;
-border-radius: solid 2px;
+main .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent, #ebebeb);
 }
-.Container-card .direct{
-    display: flex;
-    flex-direction: column;
-}
+    
+   
 
+.Container-card {
+  position: absolute;
+  top: 35em;
+  left: 15rem;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 20px;
+  border-radius: solid 2px;
+}
+.Container-card .direct {
+  display: flex;
+  flex-direction: column;
+}
+.Container-card a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(34, 33, 33);
+}
+.Container-card p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(34, 33, 33);
+  font-weight: 700;
+}
+.Container-card .card {
+  background-color: #ffff;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Container-card .card img {
+  width: 100px;
+}
+.Container-card .button {
+  display: flex;
+  justify-content: center;
+  background-color: #c6d3f8;
+  padding: 7px;
+  color: rgb(49, 116, 202);
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.paragrafo {
+  font-size: 13px;
+  width: 120px;
+}
 
