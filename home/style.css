@@ -104,4 +104,9 @@ main .gradient {
   font-size: 13px;
   width: 120px;
 }
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
