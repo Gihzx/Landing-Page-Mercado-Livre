@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: 0;
     box-shadow: 0;
     margin: 0;
@@ -6,55 +6,66 @@
 
 
 .nav-bar {
-display: flex;
-   justify-content:center;
-   gap: 100px;
-   background-color: #ffe600;
-   padding: 18px;
-    img{
-        width: 150px ;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #ffe600;
+    padding: 18px;
+
+    img {
+        width: 150px;
     }
-    input{
+
+    input {
         width: 50em;
         padding: 10px;
         border: none;
-        
+
     }
 }
 
 
-
 .nav-secundaria .nav-one {
- display: flex;
- justify-content: space-around;
- gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
 }
-.nav-secundaria .nav-two{
- display: flex;
- justify-content: space-around;
- gap: 30px;
+
+.nav-secundaria .nav-two {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
 }
-.nav-secundaria{
-       background-color: #ffe600;
-       display: flex;
-       justify-content:space-around ;
-        padding: 18px;
-       font-family: Arial, Helvetica, sans-serif;
+
+.nav-secundaria {
+    background-color: #ffe600;
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.nav-secundaria a{
-text-decoration-line:none ;
-color: black;
+
+.nav-secundaria a {
+    text-decoration-line: none;
+    color: black;
 }
-.Container-card{
-display: flex;
-justify-content: center;    
-gap: 60px;
-padding: 20px;
-border-radius: solid 2px;
+
+.Container-card {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+    border-radius: solid 2px;
 }
-.Container-card .direct{
+
+.Container-card .direct {
     display: flex;
     flex-direction: column;
+
 }
 
-
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
