@@ -43,6 +43,7 @@
   text-decoration-line: none;
   color: black;
 }
+/*
 main .gradient {
   position: absolute;
   width: 100%;
@@ -51,17 +52,15 @@ main .gradient {
   background: linear-gradient(180deg, transparent, #ebebeb);
 }
     
-   
+   */
 
 .Container-card {
-  position: absolute;
-  top: 35em;
-  left: 15rem;
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 25px;
   padding: 20px;
   border-radius: solid 2px;
+   background-color: #f7f5f5;
 }
 .Container-card .direct {
   display: flex;
@@ -105,8 +104,24 @@ main .gradient {
   width: 120px;
 }
 main img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
+.produtos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  height: auto;
+}
+.produto-card img {
+  width: 180px;
+}
+.produto-card {
+  background-color: #fdfdfd;
+  padding: 20px;
+  border-radius: 5px;
+}
