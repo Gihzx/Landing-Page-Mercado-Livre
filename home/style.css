@@ -108,7 +108,24 @@ main img {
   height: auto;
   display: block;
 }
+footer, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 50px;
+        padding: 20px;
+        margin-left: 30px;
+    }
+
+    .footer2{
+        color: gray;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+=======
 .produtos-container {
   display: flex;
   justify-content: center;
@@ -124,4 +141,5 @@ main img {
   background-color: #fdfdfd;
   padding: 20px;
   border-radius: 5px;
+
 }
